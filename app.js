@@ -173,29 +173,112 @@ document.getElementById("exf").innerHTML = "The remainder is: " + i;
 
 
 document.getElementById("q4").innerHTML = "<h3>Question # 4</h3>";
-var cost = 600;
-var i = cost * 5;
-document.getElementById("cost").innerHTML = "Total cost to buy 5 tickets to a movie is " + i + "PKR";
+// var cost = 600;
+// var i = cost * 5;
+// document.getElementById("cost").innerHTML = "Total cost to buy 5 tickets to a movie is " + i + "PKR";
 
 
 document.getElementById("q5").innerHTML = "<h3>Question # 5</h3>";
-var num = 4;
+// var num = 4;
  
-var num = parseInt(num); //parse the num to number
-var i = 0;
-document.write("<h4>Table of 4</h4><table>");
+// var num = parseInt(num); //parse the num to number
+// var i = 0;
+// document.write("<h4>Table of 4</h4><table>");
 
-for(i=1;i<11;i++) {
-    document.write("<tr><td>" + num +  "</td><td>x</td><td>" + i +  "</td><td>=</td><td>" + num*i + "</td></tr>");
-}
-document.write("</table>");
-
-
+// for(i=1;i<11;i++) {
+//     document.write("<tr><td>" + num +  "</td><td>x</td><td>" + i +  "</td><td>=</td><td>" + num*i + "</td></tr>");
+// }
+// document.write("</table>");
 
 
+document.getElementById("q6").innerHTML = "<h3>Question # 6</h3>";
+// function cToF(celsius) 
+// {
+//   var cTemp = celsius;
+//   var cToFahr = cTemp * 9 / 5 + 32;
+//   var message = cTemp+'\xB0C is ' + cToFahr + ' \xB0F <br>';
+//     document.write(message);
+// }
+
+// function fToC(fahrenheit) 
+// {
+//   var fTemp = fahrenheit;
+//   var fToCel = (fTemp - 32) * 5 / 9;
+//   var message = fTemp+'\xB0F is ' + fToCel + '\xB0C';
+//     document.write(message);
+// } 
+// cToF(25);
+// fToC(70);
+
+document.getElementById("q7").innerHTML = "<h3>Question # 7</h3>";
+// var price1 = 650;
+// document.write("<h4>Shopping Cart</h4> Price of item 1 is " + price1 + "<br>");
+
+// var quan1 = 3;
+// document.write("Quantity of item 1 is " + quan1 + "<br>");
+
+// var price2 = 100;
+// document.write("Price of item 2 is " + price2 + "<br>");
+
+// var quan2 = 7;
+// document.write("Quantity of item 2 is " + quan2 + "<br>");
+
+// var shipCharges = 100;
+// document.write("Shipping charges " + shipCharges + "<br>");
+
+// var a = price1 * quan1;
+// var b = price2 * quan2;
+// var total = a + b + shipCharges;
+// document.write("<br> Total cost of your order is " + total);
 
 
+document.getElementById("q8").innerHTML = "<h3>Question # 8</h3>";
+// var totalMarks = 980;
+// var marksObt = 840;
+// var total = marksObt / totalMarks * 100;
+// document.write("Total marks: " + totalMarks + "<br>");
+// document.write("Obtained marks: " + marksObt + "<br>");
+// document.write("Percentage: " + total + "%");
 
+
+document.getElementById("q9").innerHTML = "<h3>Question # 9</h3>";
+// var usd = 104.80;
+// var usdq = 10;
+// var total = usd * usdq;
+// var riyal = 28;
+// var riyalq = 25;
+// var total1 = riyal * riyalq;
+// var curr = total1 + total;
+// document.write("<h4>Currency in PKR</h4> Total Currency in PKR: " + curr);
+
+
+document.getElementById("q10").innerHTML = "<h3>Question # 10</h3>";
+// var num = 10;
+// var i = num + 5 * 10 / 2;
+// document.write("Total: " + i); 
+
+
+document.getElementById("q11").innerHTML = "<h3>Question # 11</h3>";
+// var currYear = 2020;
+// var birthYear = 1998;
+// var total = currYear - birthYear;
+// document.write("Current Year: " + currYear + "<br>");
+// document.write("Birth Year: " + birthYear + "<br>");
+// document.write("Your Age is : " + total);
+
+
+document.getElementById("q13").innerHTML = "<h3>Question # 13</h3>";
+var fav = "Super Crisp";
+var currAge = 21;
+var maxAge = 60;
+var est = 2;
+var age = maxAge - currAge;
+var total = age * est;
+document.write("<h4>The Lifetime Supply Calculator</h4>" + "Favourite Snack: " + fav + "<br>");
+document.write("Current Age: " + currAge + "<br>");
+document.write("Estimated Maximum Age: " + maxAge + "<br>");
+document.write("Amount of Snacks per day: " + est + "<br>");
+document.write("You will need " + total  + " super crisp to last you until the ripe old age of " + maxAge);
 
 
 
